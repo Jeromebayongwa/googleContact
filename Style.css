@@ -41,7 +41,12 @@ body {
     resize: vertical;
     height: 100px;
 }
-.form-group img{
+.group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.group .icone{
     width: 20px;
     height: 20px;
 }
