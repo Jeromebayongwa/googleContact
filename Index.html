@@ -38,9 +38,14 @@
                     <label for="Fonction"></label>
                     <input type="text" id="Fonction" name="Fonction" placeholder="Fonction" required>
                 </div>
-                <div class="form-group">
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
+                <div class="group">
+                    <div class="icone">
+                        <ion-icon name="business-outline"><img src="Images/mail-outline.svg" alt=""></ion-icon>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
                 </div>
                 <div class="form-group">
                     <button class="Ajouter" type="submit">+ Ajouter une adresse e-mail</button>
@@ -49,6 +54,17 @@
                     <div class="icone">
                         <ion-icon name="person-outline"></ion-icon><img src="Images/call-outline.svg" alt="">
                     </div>
+                    <div class="form-group">
+                        <div class="Pays-select">
+                            <select id="Pays" name="Pays" class="Pays-select__dropdown">
+                                <option value="fr" data-flag="">France</option>
+                                <option value="cd" data-flag="">RDC</option>
+                                <option value="ca" data-flag="">Canada</option>
+                            </select>
+                            <div class="Pays-select__flag"></div>
+                        </div>
+                    </div>
+                    
                     <div class="form-group">
                         <label for="Téléphone"></label>
                         <input type="text" id="Téléphone" name="Téléphone" placeholder="Téléphone" required>
