@@ -64,11 +64,16 @@ body {
 }
 .button{
     display: flex;
+    position: relative;
 }
 .form-button button {
+    align-items: center;
+    margin-left: 300px;
+    margin-bottom: 750px;
     width: 20%;
     padding: 10px;
     background-color: #4285f4;
+    opacity: 45%;
     border: none;
     border-radius: 100px;
     color: #ffffff;
